@@ -50,9 +50,11 @@ header a {
   }
   header h3 {
     font-size: 12px;
+    padding-top: 100px;
   }
 
   header a {
     padding: 8px 16px;
+    margin-bottom: 100px;
   }
 }
