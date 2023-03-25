@@ -44,22 +44,74 @@ header a {
   margin-bottom: 200px;
 }
 
+.text-center {
+  text-align: center;
+}
 .photo-large {
   max-width: 667px;
   margin-top: 10px;
 }
-section {
+.two-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
-section p {
+section.primary p {
   font-weight: 400;
-  size: 16px;
+  size: 24px;
   line-height: 2;
   color: white;
+  padding: 20px 10px;
+}
+section h3 {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.5;
+  margin: 0;
+}
+section.secondary {
+  background-color: #f8f8f8;
+  padding-top: 40px;
+}
+section.secondary h3,
+h4,
+h5,
+p {
+  color: #272044;
+  line-height: 1;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.grid-three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.card-title {
   padding-top: 20px;
 }
+.card-body {
+  color: #272044;
+  padding: 32px;
+}
+.card-body a {
+  background-color: #462cb2;
+  padding: 16px 32px;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.card-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: 10px;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -123,5 +175,14 @@ footer p {
   }
   section {
     grid-template-columns: 1fr;
+  }
+  section p {
+    size: 16px;
+    line-height: 2;
+    padding: 10px;
+  }
+  section h3 {
+    font-size: 20px;
+    line-height: 1.5;
   }
 }
