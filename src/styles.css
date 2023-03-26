@@ -92,6 +92,17 @@ p {
 .card-title {
   padding-top: 20px;
 }
+.card-header {
+  display: grid;
+}
+.card-header.two-columns {
+  grid-gap: 0px;
+}
+.embedded-map {
+  aspect-ratio: 1 /1;
+  height: 200px;
+  width: 200px;
+}
 .card-body {
   color: #272044;
   padding: 32px;
@@ -106,8 +117,8 @@ p {
   margin: 0 auto;
 }
 .card-image {
-  width: 200px;
   height: 200px;
+  width: 200px;
   display: block;
   margin-left: 10px;
 }
@@ -184,5 +195,18 @@ footer p {
   section h3 {
     font-size: 20px;
     line-height: 1.5;
+  }
+  .card-header img {
+    display: none;
+  }
+  .grid-three-columns {
+    grid-template-columns: 1fr;
+  }
+  .embedded-map {
+    width: 200%;
+    margin: 0 auto;
+  }
+  .two-columns.primary {
+    grid-template-columns: 1fr;
   }
 }
