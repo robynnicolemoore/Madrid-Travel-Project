@@ -122,7 +122,21 @@ p {
   display: block;
   margin-left: 10px;
 }
+.gallery h2,
+h3 {
+  color: white;
+  text-align: center;
+}
+.gallery h3 {
+  letter-spacing: 3px;
+  line-height: 1;
+}
 
+.instagram-media {
+  height: 400px;
+  width: 400px;
+  align-items: center;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
