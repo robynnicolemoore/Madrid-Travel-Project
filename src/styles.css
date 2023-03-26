@@ -131,6 +131,10 @@ h3 {
   letter-spacing: 3px;
   line-height: 1;
 }
+.gallery h2 {
+  font-size: 36px;
+  line-height: 1.5;
+}
 
 .instagram-media {
   height: 400px;
